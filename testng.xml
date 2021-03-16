@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "Parallel Testing Suite">
+	<listeners>
+		<listener
+			class-name="com.nagp.listeners.ExtentTestNGIReporterListener" />
+		<listener
+			class-name="com.automation.remarks.testng.VideoListener" />
+	</listeners>
+	<test name="google title test">
+		<classes>
+			<class name="com.nagp.testcases.TestCase01" />
+		</classes>
+	</test>
+	<test name="google search box test">
+		<classes>
+			<class name="com.nagp.testcases.TestCase02" />
+		</classes>
+	</test>
+	<test name="google gmail link test">
+		<classes>
+			<class name="com.nagp.testcases.TestCase03" />
+		</classes>
+	</test>
+	<test name="current date time test">
+		<classes>
+			<class name="com.nagp.testcases.TestProperties" />
+		</classes>
+	</test>
+</suite>

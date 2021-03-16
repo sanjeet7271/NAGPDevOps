@@ -1,0 +1,6 @@
+projectKey=com.NAGPDevOps:NAGPDevOps
+serverUrl=http://192.168.43.61:9000
+serverVersion=6.7.1.35068
+dashboardUrl=http://192.168.43.61:9000/dashboard/index/com.NAGPDevOps:NAGPDevOps
+ceTaskId=AXg5qApxA8r8_JCkJNZw
+ceTaskUrl=http://192.168.43.61:9000/api/ce/task?id=AXg5qApxA8r8_JCkJNZw
